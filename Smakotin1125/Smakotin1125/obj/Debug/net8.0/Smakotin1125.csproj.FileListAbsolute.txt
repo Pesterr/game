@@ -1,0 +1,15 @@
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\bin\Debug\net8.0\Smakotin1125.exe
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\bin\Debug\net8.0\Smakotin1125.deps.json
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\bin\Debug\net8.0\Smakotin1125.runtimeconfig.json
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\bin\Debug\net8.0\Smakotin1125.dll
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\bin\Debug\net8.0\Smakotin1125.pdb
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\obj\Debug\net8.0\Smakotin1125.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\obj\Debug\net8.0\Smakotin1125.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\obj\Debug\net8.0\Smakotin1125.AssemblyInfo.cs
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\obj\Debug\net8.0\Smakotin1125.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\obj\Debug\net8.0\Smakotin1125.dll
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\obj\Debug\net8.0\refint\Smakotin1125.dll
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\obj\Debug\net8.0\Smakotin1125.pdb
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\obj\Debug\net8.0\Smakotin1125.genruntimeconfig.cache
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\obj\Debug\net8.0\ref\Smakotin1125.dll
+C:\Users\Student\source\repos\Smakotin1125\Smakotin1125\obj\Debug\net8.0\Smakotin1125.sourcelink.json
