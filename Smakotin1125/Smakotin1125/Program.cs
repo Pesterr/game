@@ -1,4 +1,4 @@
-﻿using static System.Net.Mime.MediaTypeNames;
+using static System.Net.Mime.MediaTypeNames;
 using System.Xml.Linq;
 using System.Security.Cryptography.X509Certificates;
 
@@ -99,11 +99,15 @@ public class Game
         Console.WriteLine($"Второй игрок:\n{SecondPlayer.Info()}");
         while (FirstPlayer.HP > 0 && SecondPlayer.HP > 0)
         {
-            Console.WriteLine("Ход первого(или второго) игрока. Выберите действие, указав цифру:\n1 - атака\n2 - лечение");
+            if (CurrentPlayer == FirstPlayer)
+                Console.WriteLine($"Ходит игрок {FirstPlayer.Name}[{FirstPlayer.HP}] (противник-{SecondPlayer.Name}[{SecondPlayer.HP}])\n1. Атака\n2. Лечение");
+            else if (CurrentPlayer == SecondPlayer)
+                Console.WriteLine($"Ходит игрок {SecondPlayer.Name}[{SecondPlayer.HP}] (противник-{FirstPlayer.Name}[{FirstPlayer.HP}])\n1. Атака\n2. Лечение");
             int command = int.Parse(Console.ReadLine());
-            CurrentPlayer = FirstPlayer;
+
             if (CurrentPlayer == FirstPlayer)
             {
+                
                 switch (command)
                 {
                     case 1:
@@ -117,6 +121,7 @@ public class Game
             }
             else if (CurrentPlayer == SecondPlayer)
             {
+                
                 switch (command)
                 {
                     case 1:
@@ -139,14 +144,9 @@ public class Game
 
             else if (SecondPlayer.HP == 0 || SecondPlayer.HP < 0)
             {
-                Console.Write("Второй игрок проиграл");
+                Console.Write($"Второй игрок под ником {SecondPlayer.Name} проиграл\n{FirstPlayer.Name} победил!!!");
                 break;
             }
-            
-            
-            
-            
-            
         }
     }
 }
@@ -161,6 +161,3 @@ class Program
     }
 
 }
-
-
-
